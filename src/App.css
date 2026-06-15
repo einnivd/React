@@ -1,0 +1,18 @@
+.heading{
+  color: thistle;
+  background-color: seagreen;
+  padding: 20px;
+  /* margin-bottom: 20px; */
+}
+.mainTitle{
+  font-size: 28px;
+  padding: 50px;
+  color: rgb(255, 202, 229);
+  background-color: palevioletred;
+}
+.contents{
+  font-size: 24px;
+  padding: 100px;
+  color: skyblue;
+  background-color: blue;
+}
