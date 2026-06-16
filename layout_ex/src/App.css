@@ -1,0 +1,27 @@
+.heading{
+  background-color: rgb(197, 184, 255);
+  padding: 20px;
+  text-align: center;
+}
+.desc{
+  color: slateblue;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+}
+/* 비주얼 */
+.visual{
+  background-color: rgb(0, 163, 228);
+}
+.visual-sw .swiper-slide{
+  padding: 50px 0;
+  background-color: rgb(184, 236, 87);
+}
+/* content */
+.content{
+  background-color: seagreen;
+}
+/* footer */
+.footer{
+  background-color: rgb(214, 243, 155);
+}
