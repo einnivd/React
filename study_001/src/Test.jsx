@@ -26,7 +26,7 @@ function Test() {
   const menus = ["HTML", "CSS", "JS", "REACT"];
   // 함수가 값을 반환하는 경우
   function getName() {
-    return "홍길동";
+    return "이예빈";
   }
   return (
     <>
