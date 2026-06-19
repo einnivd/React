@@ -1,0 +1,44 @@
+/* 과일 탭 버튼 */
+.tab-menu button.active {
+  border-color: orange;
+  background-color: rgb(252, 255, 203);
+  color: #fff;
+}
+/* 메뉴 호버 */
+.gnb {
+  width: 500px;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  align-items: flex-start;
+}
+.gnb > li {
+  width: calc(100% / 5);
+  /* padding: 10px; */
+  background-color: rgb(137, 116, 255);
+  white-space: nowrap;
+  font-size: 15px;
+  line-height: 30px;
+  transition:
+    flex-grow 0.5s ease,
+    background-color 0.5s ease;
+}
+.gnb > li:hover {
+  background-color: rgb(104, 77, 155);
+}
+.sub {
+  width: 100%;
+  color: #333;
+  font-size: 13px;
+  background-color: rgb(184, 235, 255);
+  /* width: max-content;  */
+}
+.sub > li {
+  padding: 5px;
+  text-align: center;
+}
+.sub > li:hover {
+  background-color: rgb(155, 206, 230);
+}
