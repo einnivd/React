@@ -42,3 +42,35 @@
 .sub > li:hover {
   background-color: rgb(155, 206, 230);
 }
+/* WorkCard */
+.card{
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  /* border: 1px solid #ddd; */
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.card .img-box{
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card img{
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+.card-content{
+  display: flex;
+  gap: 20px;
+}
+/* Fruits */
+.fruit{
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}

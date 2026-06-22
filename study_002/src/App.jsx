@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropsEx from "./components/PropsEx";
 
 function App() {
   const [color, setColor] = useState();
@@ -9,6 +10,7 @@ function App() {
     <>
       <section>
         <h1>좋아하는 색 선택</h1>
+        <PropsEx name="이예빈"></PropsEx>
         <select
           onChange={handleChange}
           value={color}
