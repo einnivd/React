@@ -74,3 +74,53 @@
     border-radius: 20px;
     font-size: 14px;
 }
+/* modal */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal {
+    position: relative;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    width: min(100vw, 800px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.modal img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.modal-content {
+    padding: 24px;
+}
+
+.modal-content h1 {
+    margin: 12px 0;
+}
+.modal-content .category,
+.modal-content .price{
+  font-size: 1.5rem;
+}
+
+.modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    cursor: pointer;
+}

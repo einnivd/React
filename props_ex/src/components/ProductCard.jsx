@@ -1,7 +1,8 @@
-function ProductCard({title, price, category, image}) {
+function ProductCard({ product, onSelect }) {
+  const { title, price, category, image } = product;
   return (
     <>
-      <div className="card">
+      <div className="card" onClick={() => onSelect(product)}>
         <img src={image} alt={title}></img>
         <div className="card-content">
           <h3>{title}</h3>
