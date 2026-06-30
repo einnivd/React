@@ -1,0 +1,37 @@
+.slide-category{
+    padding: 30px;
+}
+.category-label {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, rgb(221, 0, 255), rgb(255, 183, 0));
+  color: #f5f5f5;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff !important;
+  opacity: 50%;
+}
+.ai-swiper{
+   padding-bottom: 50px;
+}
+/* pagination */
+.ai-swiper .swiper-pagination-bullet{ width: 12px;
+  height: 12px;
+  background: #97bfff;
+  opacity: 1;
+  transition: 0.3s;
+}
+.ai-swiper .swiper-pagination-bullet-active{
+    width: 34px;
+  border-radius: 20px;
+  background: rgb(67, 127, 255);
+}

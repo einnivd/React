@@ -28,7 +28,7 @@
     border: none;
     border-radius: 10px;
 
-    background: royalblue;
+    background: linear-gradient(135deg, rgb(166, 0, 255) , rgb(0, 157, 255));
     color: white;
 
     cursor: pointer;

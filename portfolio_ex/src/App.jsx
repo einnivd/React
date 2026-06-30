@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Ai_swiper from "./components/Ai_swiper";
 import AiTools from "./components/AiTools";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -23,6 +24,8 @@ function App() {
     {/* AI 도구 활용 */}
     <AiTools/>
     {/* contact */}
+    {/* swiper 적용 */}
+    <Ai_swiper/>
     <Contact/>
     {/* 하단 */}
     <Footer/>
